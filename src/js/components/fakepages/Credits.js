@@ -3,14 +3,9 @@ import { Link } from "react-router";
 
 import Title from "../Title.js";
 
-
 class Credits extends React.Component {
   render() {
-    return (
-
-        <Title>Credits</Title>
-
-    );
+    return <Title>Credits</Title>;
   }
 }
 export default Credits;

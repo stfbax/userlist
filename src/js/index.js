@@ -14,7 +14,6 @@ import Credits from "./components/fakepages/Credits.js";
 import Payment from "./components/fakepages/Payment.js";
 import Logout from "./components/fakepages/Logout.js";
 
-
 const App = React.createClass({
   render: () => {
     return (

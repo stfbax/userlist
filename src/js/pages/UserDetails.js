@@ -3,7 +3,7 @@ import axios from "axios";
 
 import UserDetailsComponent from "../components/UserDetailsComponent.jsx";
 
-import '../../sass/UserDetails.scss';
+import "../../sass/UserDetails.scss";
 
 export default class UserDetails extends React.Component {
   constructor(props) {

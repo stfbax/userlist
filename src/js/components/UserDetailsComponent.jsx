@@ -8,8 +8,8 @@ import "../../sass/UserDetails.scss";
 class UserDetails extends React.Component {
   constructor(props) {
     super(props);
-}
-render() {
+  }
+  render() {
     return (
       <div className="">
         <div className="title">USER DETAILS</div>
@@ -32,11 +32,7 @@ render() {
             <thead>
               <tr>
                 <th>
-
-                      {this.props.users.id}
-
-
-
+                  {this.props.users.id}
                 </th>
                 <th>
                   {this.props.users.first_name}
@@ -59,8 +55,7 @@ render() {
         </div>
       </div>
     );
+  }
 }
 
-}
-
-export default UserDetails
+export default UserDetails;

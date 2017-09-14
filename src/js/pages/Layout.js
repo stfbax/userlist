@@ -28,15 +28,15 @@ export default class Layout extends React.Component {
           </span>
           <span>/</span>
           <span>
-              <Link to="/payment"> Payment </Link>
+            <Link to="/payment"> Payment </Link>
           </span>
           <span>/</span>
           <span>
-              <Link to="/credits"> Credits </Link>
+            <Link to="/credits"> Credits </Link>
           </span>
           <span>/</span>
           <span>
-              <Link to="/logout"> Logout </Link>
+            <Link to="/logout"> Logout </Link>
           </span>
         </Header>
         {this.props.children}

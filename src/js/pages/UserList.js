@@ -44,7 +44,7 @@ export default class UserList extends React.Component {
       .then(response => {
         this.loadUsers();
         this.setState({ loaded: false });
-        alert("User status has been changed")
+        alert("User status has been changed");
       })
       .catch(function(error) {
         console.log(error);

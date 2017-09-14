@@ -57,7 +57,7 @@ class UserEdit extends React.Component {
       .then(response => {
         console.log(response);
         this.setState({ updated: true });
-        alert("User has been updated")
+        alert("User has been updated");
         this.props.history.push("/");
       })
       .catch(error => {
