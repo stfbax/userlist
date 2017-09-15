@@ -1,7 +1,7 @@
 # User list by Istvan Bacsa
 
 
-```
-
-Modify your `package.json` file to fit your needs.
-# userlist
+terminal:
+git clone https://github.com/stfbax/userlist.git
+npm install
+npm run dev
